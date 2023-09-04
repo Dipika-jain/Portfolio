@@ -1,0 +1,226 @@
+@media only screen and (max-width: 1800px) {
+  .hero-section-title {
+    font-size: 68px;
+    line-height: 70px;
+  }
+  .skill-main {
+    font-size: 28px;
+    line-height: 40px;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .skill-main {
+    font-size: 54px;
+    line-height: 70px;
+  }
+
+  .skills-section-card {
+    gap: 28px;
+  }
+  .skills-section-card-content {
+    gap: 20px;
+  }
+  .skills-section-title {
+    font-size: 23px;
+    line-height: 30px;
+  }
+  .skills-section-description {
+    font-size: 17.333px;
+    line-height: 27px;
+  }
+  .skills-section {
+    padding: 5px 5px 8px;
+  }
+}
+/* @media screen and (max-width: 600px)  {
+  .hero-section 
+    display: flow;
+  }
+  .hero-section-title {
+    font-size: 50px;
+    font-weight: 500;
+  }
+  .hero-section-description {
+    font-size: 20px;
+    font-weight: 200;
+    
+  }
+  .hero-section-img {
+    display: contents;
+    justify-content: end;
+  }
+  .hero-section-img > img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 25px;
+  }
+} */
+
+@media only screen and (max-width: 1200px) {
+  .btn-outline-primary {
+    display: none;
+  }
+  
+  .hero-section {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 70px;
+  }
+  .hero-section-title,
+  .hero-section-description,
+  .footer-content {
+    text-align: center;
+  }
+  .skills-section,
+  .about-section,
+  .footer-link-container,
+  .footer-items > ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .skills-section,
+  .hero-section-content,
+  .hero-section-content-box {
+    align-items: center;
+  }
+
+  .footer-container {
+    gap: 20px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .project-section {
+    display: grid;
+    padding: 50px 60px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    justify-content: space-evenly;
+    justify-items: center;
+  }
+  .project-section-container {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  .about-section {
+    gap: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .hero-section-title,
+  .sections-heading {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .hero-section-content-box {
+    gap: 10px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .footer-social-icon > ul,
+  .footer-items > ul {
+    padding: 0;
+    align-items: center;
+  }
+  .divider {
+    margin: 20px;
+  }
+  .skill-icon-grp1 {
+    display: flex;
+    gap: 5px;
+    padding:10px 5px 10px ;
+    justify-content: space-evenly;
+  }
+  .skill-main > h1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .skill-main > p {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .skill-icon-grp {
+    padding: 20px 20px;
+    gap: 5px;
+  }
+  .experience-section {
+    display:flex ;
+    padding: 50px 20px;
+    flex-direction: column;
+  }
+  .exp-title {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .exp-card-grp {
+    display: flex;
+    font-size: 15px;
+  }
+  .exp-card-type {
+    display: none;
+  }
+  .exp-card-left{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .nav-hamburger {
+    display: flex;
+    z-index: 200;
+  }
+  .navbar-items {
+    display: flex;
+  }
+  .navbar-items {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255);
+    top: -20rem;
+    left: 0;
+    width: 100%;
+    transition: all ease-in-out 0.4s;
+  }
+  .navbar-items ul {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 3rem 0 0.6rem;
+    z-index: -100;
+  }
+  .navbar-items ul li {
+    text-align: center;
+  }
+  .navbar-items ul li a {
+    padding: 0.5rem;
+  }
+  .navbar-items {
+    z-index: -1000;
+  }
+  .navbar-items.active {
+    top: 30px;
+  }
+  .nav-hamburger.active :nth-child(1) {
+    transform: rotate(45deg) translate(0.45rem, 0.1875rem);
+  }
+
+  .nav-hamburger.active :nth-child(2) {
+    opacity: 0;
+  }
+
+  .nav-hamburger.active :nth-child(3) {
+    transform: rotate(-45deg) translate(0.45rem, -0.1875rem);
+  }
+}
